@@ -1,0 +1,61 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="~/Content/Site.css">
+
+    <title>MnC</title>
+</head>
+<body>
+
+    <button class="startButton" onclick="start(this)">Start</button>
+
+    <div class="scene">
+        <div class="dvLeft">
+            <div id="dvMissionariesLeft">
+                @*<img class="imgMissionary" src="~/App_Images/missionary.png" alt="missionary" />*@
+            </div>
+
+            <br />
+
+            <div id="dvCannibalsLeft">
+                @*<img class="imgCannibal" src="~/App_Images/cannibal.png" alt="cannibal" />*@
+            </div>
+        </div>
+
+        <div class="river">
+            <div class="dvBoat" id="dvBoat">
+                <div class="boatItems" id="dvBoatItems">
+                    @*<img class="imgMissionary" src="~/App_Images/missionary.png" alt="missionary" />*@
+                    @*<img class="imgCannibal" src="~/App_Images/cannibal.png" alt="cannibal" />*@
+                </div>
+                <img class="imgBoat" src="~/App_Images/boat.png" alt="boat" />
+            </div>
+        </div>
+
+        <div class="dvRight">
+            <div id="dvMissionariesRight">
+
+            </div>
+
+            <br />
+
+            <div id="dvCannibalsRight">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<script src="/Content/main.js"></script>

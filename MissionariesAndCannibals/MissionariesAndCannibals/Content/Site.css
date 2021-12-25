@@ -1,0 +1,71 @@
+﻿body {
+    background-image: url('../App_Images/grass.jpg');
+    margin: 0px;
+}
+
+.scene {
+    height: max-content;
+    width: max-content;
+    margin: 0 auto;
+}
+
+    .scene .dvLeft, .scene .dvRight {
+        padding-top: 200px;
+    }
+
+.river {
+    height: 100vh;
+    width: 400px;
+    background-image: url('../App_Images/river.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 20px;
+    float: left;
+}
+
+.dvLeft {
+    width: 300px;
+    float: left;
+    text-align: right;
+}
+
+.left img {
+    width: 30px;
+}
+
+.dvRight {
+    width: 300px;
+    float: left;
+}
+
+.imgMissionary, .imgCannibal {
+    width: 30px;
+}
+
+.dvBoat {
+    padding-top: 250px;
+}
+
+.boatItems {
+    position: absolute;
+    z-index: 9;
+    padding-left: 20px;
+}
+
+.imgBoat {
+    width: 100px;
+    position: absolute;
+    z-index: 10;
+    margin-top: 40px;
+}
+
+.startButton {
+    width: 200px;
+    height: 100px;
+    font-size: 24pt;
+    position: fixed;
+    z-index: 20;
+    right: 50px;
+    left: auto;
+    top: 50px;
+}
